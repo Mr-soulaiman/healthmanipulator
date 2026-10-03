@@ -478,6 +478,401 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
+    id: 'post-favorite-meals-filling',
+    slug: 'how-i-make-my-favorite-meals-more-filling-without-changing-them',
+    title: 'How I Make My Favorite Meals More Filling Without Changing Them',
+    seoTitle: 'How I Make My Favorite Meals More Filling Without Changing Them',
+    metaDescription:
+      "Instead of replacing my favorite meals with diet food, I eat a smaller portion of what I actually want and add filling sides like salad, vegetables, or potatoes.",
+    excerpt:
+      "I don't always want the lighter version of a meal. Instead of replacing pizza, burgers, or pasta with diet food, I eat what I actually wanted and make room around it.",
+    category: 'Food & Swaps',
+    date: 'October 3, 2026',
+    author: 'Salman Martah',
+    image: pizza2BalancedSpreadImg,
+    cardAccentBg: '#9ED8C5',
+    bottomDisclaimer:
+      'These posts are based on my personal experience. They are not medical advice, and what works for one person may not work for another.',
+    sections: [
+      {
+        blocks: [
+          {
+            type: 'p',
+            text: "I don't always want the lighter version of a meal.",
+          },
+          { type: 'p', text: 'Sometimes I want pizza.' },
+          {
+            type: 'p',
+            text: 'Sometimes I want a big plate of pasta. Sometimes I want a burger and fries.',
+          },
+          {
+            type: 'p',
+            text: "And honestly, replacing those meals with a salad just because I'm trying to lose weight doesn't work very well for me.",
+          },
+          {
+            type: 'p',
+            text: "I'd rather eat a smaller amount of the food I actually wanted, then add something filling on the side.",
+          },
+          {
+            type: 'p',
+            text: "That's one of the little tricks that has made eating less feel much easier for me.",
+          },
+        ],
+      },
+      {
+        heading: "I don't replace the meal. I make room around it.",
+        blocks: [
+          { type: 'p', text: "Let's say I'm having pizza." },
+          {
+            type: 'p',
+            text: 'I could eat four slices and still feel like I want more.',
+          },
+          {
+            type: 'p',
+            text: "Or I could have two or three slices and add a big salad or some vegetables. If I know I'm still going to be hungry, I can add some boiled or air-fried potatoes too.",
+          },
+          { type: 'p', text: "I'm still eating pizza." },
+          { type: 'p', text: "That's the part I like." },
+          {
+            type: 'p',
+            text: 'I\'m not making a "healthy pizza." I\'m not replacing it with something completely different. I\'m just not asking the pizza to do all the work of filling me up.',
+          },
+          { type: 'p', text: 'I use the same idea with a lot of meals.' },
+        ],
+      },
+      {
+        heading: 'Pizza',
+        blocks: [
+          { type: 'p', text: '**The usual way**' },
+          {
+            type: 'p',
+            text: "I eat the amount of pizza I normally want, and that's basically the whole meal.",
+          },
+          { type: 'p', text: '**What I do instead**' },
+          {
+            type: 'p',
+            text: 'I reduce the amount of pizza a little and add something that gives me more food without adding as many calories.',
+          },
+          { type: 'p', text: 'That could be:' },
+          { type: 'p', text: '• A big chicken salad' },
+          { type: 'p', text: '• Vegetables' },
+          { type: 'p', text: '• A simple salad' },
+          { type: 'p', text: '• Boiled potatoes' },
+          { type: 'p', text: '• Air-fried potatoes' },
+          {
+            type: 'p',
+            text: "The choice depends on what I have and what I'm in the mood for.",
+          },
+          {
+            type: 'p',
+            text: "The important part is that I didn't have to give up the pizza.",
+          },
+          {
+            type: 'p',
+            text: 'I just stopped expecting the pizza alone to make me completely full.',
+          },
+          {
+            type: 'p',
+            text: 'If you want to see how I personally think about eating pizza while losing weight, I wrote about that separately in [How I Eat Pizza Without a Cheat Day](/blog/how-i-eat-pizza-without-cheat-day).',
+          },
+        ],
+      },
+      {
+        heading: 'Pasta',
+        blocks: [
+          { type: 'p', text: 'Pasta is another easy example.' },
+          {
+            type: 'p',
+            text: "If I make a huge bowl of pasta, it's very easy for the calories to add up without the plate looking particularly crazy.",
+          },
+          {
+            type: 'p',
+            text: 'So instead of making the pasta disappear from my diet, I can simply make the pasta portion smaller.',
+          },
+          { type: 'p', text: 'Then I have room for something else.' },
+          { type: 'p', text: 'For example:' },
+          {
+            type: 'blockquote',
+            text: 'Less pasta + chicken + a big salad',
+          },
+          { type: 'p', text: 'Or:' },
+          {
+            type: 'blockquote',
+            text: 'Less pasta + vegetables + some potatoes',
+          },
+          {
+            type: 'p',
+            text: 'It still looks and feels like a proper meal.',
+          },
+          { type: 'p', text: "That's what I'm looking for." },
+          {
+            type: 'p',
+            text: "I don't want to finish a tiny bowl of \"diet pasta\" and immediately start thinking about what else I can eat.",
+          },
+          {
+            type: 'p',
+            text: "I'd rather have a meal that is a little different in proportions but still feels satisfying.",
+          },
+        ],
+      },
+      {
+        heading: 'Burger and fries',
+        blocks: [
+          {
+            type: 'p',
+            text: 'This one is probably even easier to understand.',
+          },
+          {
+            type: 'p',
+            text: "I don't need to turn a burger into a lettuce-wrapped chicken breast.",
+          },
+          {
+            type: 'p',
+            text: "If I want a burger, I'll have the burger.",
+          },
+          {
+            type: 'p',
+            text: 'The part I can change is everything around it.',
+          },
+          {
+            type: 'p',
+            text: 'Instead of a huge portion of fries, I can have fewer fries and add a salad or some vegetables.',
+          },
+          {
+            type: 'p',
+            text: 'Or I can have a smaller amount of fries and some boiled or air-fried potatoes if I want more food.',
+          },
+          { type: 'p', text: 'The burger is still there.' },
+          { type: 'p', text: "And that's important to me." },
+          {
+            type: 'p',
+            text: 'Because if I keep trying to make every meal look like a "weight-loss meal," eventually I start feeling like I\'m constantly eating something I didn\'t actually want.',
+          },
+        ],
+      },
+      {
+        heading: 'Rice and chicken',
+        blocks: [
+          {
+            type: 'p',
+            text: "This is another meal where I don't really need to change the ingredients.",
+          },
+          {
+            type: 'p',
+            text: 'If I normally have a large amount of rice with my chicken, I can simply reduce the rice a little.',
+          },
+          {
+            type: 'p',
+            text: 'Then I have space for vegetables, salad, or potatoes.',
+          },
+          { type: 'p', text: 'For example:' },
+          {
+            type: 'blockquote',
+            text: 'Chicken + less rice + a big salad',
+          },
+          { type: 'p', text: 'Or:' },
+          {
+            type: 'blockquote',
+            text: 'Chicken + less rice + vegetables + some potatoes',
+          },
+          { type: 'p', text: "I'm not scared of rice." },
+          {
+            type: 'p',
+            text: "I'm just not trying to get all my fullness from rice.",
+          },
+          {
+            type: 'p',
+            text: 'This is also why I like mixing potatoes with rice, pasta or bread. You can read more about that in [Why I Started Mixing Potatoes With Rice, Pasta and Bread](/blog/mixing-potatoes-with-rice-pasta-and-bread).',
+          },
+        ],
+      },
+      {
+        heading: 'Sandwiches and tacos',
+        blocks: [
+          { type: 'p', text: 'This works with sandwiches too.' },
+          {
+            type: 'p',
+            text: "I don't necessarily need a special low-calorie sandwich.",
+          },
+          {
+            type: 'p',
+            text: 'I can just have a slightly smaller portion and add something on the side.',
+          },
+          { type: 'p', text: 'A salad.' },
+          { type: 'p', text: 'Some vegetables.' },
+          { type: 'p', text: 'Potatoes.' },
+          { type: 'p', text: 'Whatever makes sense with the meal.' },
+          {
+            type: 'p',
+            text: 'The same idea works with tacos or similar meals.',
+          },
+          {
+            type: 'p',
+            text: "Keep the food you actually enjoy. Just don't make the main food responsible for filling the entire plate.",
+          },
+        ],
+      },
+      {
+        heading: 'Fried chicken',
+        blocks: [
+          {
+            type: 'p',
+            text: 'Fried chicken is a good example because the obvious "diet solution" would be to replace it completely.',
+          },
+          { type: 'p', text: "I don't always want to do that." },
+          {
+            type: 'p',
+            text: "If I'm eating fried chicken, I can keep the chicken and change the amount of the things around it.",
+          },
+          { type: 'p', text: 'A little less fries.' },
+          { type: 'p', text: 'A big salad.' },
+          { type: 'p', text: 'Some vegetables.' },
+          {
+            type: 'p',
+            text: 'Maybe some boiled or air-fried potatoes if I want more volume.',
+          },
+          { type: 'p', text: "It's not magic." },
+          {
+            type: 'p',
+            text: "It's just moving some of the calories from foods that are easy to eat a lot of toward foods that let me eat more.",
+          },
+        ],
+      },
+      {
+        heading: 'Steak and fries',
+        blocks: [
+          {
+            type: 'p',
+            text: 'The same thing works with a steak dinner.',
+          },
+          {
+            type: 'p',
+            text: "I don't need to make the steak smaller just because I'm trying to lose weight.",
+          },
+          {
+            type: 'p',
+            text: 'If the meal normally comes with a mountain of fries, I can simply have fewer fries and add a large salad or vegetables.',
+          },
+          {
+            type: 'p',
+            text: "And if I'm still hungry, I can add potatoes prepared in a way that doesn't require a lot of oil.",
+          },
+          { type: 'p', text: "The goal isn't to make the meal tiny." },
+          {
+            type: 'p',
+            text: '**The goal is to make the meal work better for me.**',
+          },
+        ],
+      },
+      {
+        heading: 'What I like about this method',
+        blocks: [
+          {
+            type: 'p',
+            text: "The biggest advantage is that it doesn't feel like I'm constantly replacing my favorite foods.",
+          },
+          {
+            type: 'p',
+            text: "That's important because I don't want weight loss to become a long list of foods I'm not allowed to eat.",
+          },
+          { type: 'p', text: 'If I want pizza, I can eat pizza.' },
+          { type: 'p', text: 'If I want pasta, I can eat pasta.' },
+          { type: 'p', text: 'If I want a burger, I can eat a burger.' },
+          {
+            type: 'p',
+            text: "I just don't necessarily have to eat a huge portion of the most calorie-dense part of the meal.",
+          },
+          {
+            type: 'p',
+            text: 'Then I can use the rest of the meal to get more volume.',
+          },
+          {
+            type: 'p',
+            text: "This connects directly to the bigger idea that [You Don't Have to Completely Change Your Diet to Lose Weight](/blog/you-dont-have-to-completely-change-your-diet-to-lose-weight).",
+          },
+        ],
+      },
+      {
+        heading: "It's basically a little trade",
+        blocks: [
+          { type: 'p', text: 'I think about it like this:' },
+          {
+            type: 'blockquote',
+            text: 'A little less of the calorie-dense food + more of something filling = a meal that can feel much bigger.',
+          },
+          {
+            type: 'p',
+            text: 'And the "something filling" doesn\'t have to be the same every time.',
+          },
+          { type: 'p', text: 'It could be:' },
+          { type: 'p', text: '• Salad' },
+          { type: 'p', text: '• Vegetables' },
+          { type: 'p', text: '• Chicken' },
+          { type: 'p', text: '• Soup' },
+          { type: 'p', text: '• Boiled potatoes' },
+          { type: 'p', text: '• Air-fried potatoes' },
+          {
+            type: 'p',
+            text: '• Another food that I personally find filling for relatively few calories',
+          },
+          {
+            type: 'p',
+            text: "That's why I don't really see this as a strict rule.",
+          },
+          {
+            type: 'p',
+            text: "It's more like a little trick I can use when I know a normal portion of a meal isn't going to leave me very satisfied.",
+          },
+          {
+            type: 'p',
+            text: "It's very similar to how [I treat my calories like a daily budget](/blog/i-treat-my-calories-like-a-daily-budget)—making conscious trade-offs rather than declaring foods off-limits.",
+          },
+          {
+            type: 'p',
+            text: 'I also use things like soup and low-calorie drinks for the same reason, which I wrote about in [Soup and Low-Calorie Drinks](/blog/soup-and-low-calorie-drinks).',
+          },
+        ],
+      },
+      {
+        heading: "I don't do this with every meal",
+        blocks: [
+          { type: 'p', text: 'This is important.' },
+          {
+            type: 'p',
+            text: "I'm not measuring every meal and trying to find the lowest-calorie version possible.",
+          },
+          { type: 'p', text: 'Sometimes I just eat the meal normally.' },
+          {
+            type: 'p',
+            text: "Other times I know I'm going to be hungry, so I'll make the main portion a little smaller and add something else.",
+          },
+          { type: 'p', text: 'It depends on the day.' },
+          {
+            type: 'p',
+            text: "That's part of what makes this easier for me.",
+          },
+          {
+            type: 'p',
+            text: "I'm not following a complicated formula.",
+          },
+          { type: 'p', text: "I'm just asking myself:" },
+          {
+            type: 'blockquote',
+            text: '"Can I eat a little less of this and add something that will fill me up?"',
+          },
+          {
+            type: 'p',
+            text: "If the answer is yes, that's usually enough.",
+          },
+          {
+            type: 'p',
+            text: 'And I still get to eat the food I wanted in the first place.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: 'post-new-diet-every-monday',
     slug: 'you-dont-need-to-start-a-new-diet-every-monday',
     title: "You Don't Need to Start a New Diet Every Monday",

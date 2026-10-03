@@ -54,19 +54,24 @@ const TOPICAL_RELATED_MAP: Record<string, string[]> = {
     'cheat-code-foods-for-hunger',
   ],
   'you-dont-have-to-completely-change-your-diet-to-lose-weight': [
+    'how-i-make-my-favorite-meals-more-filling-without-changing-them',
     'how-i-eat-pizza-without-cheat-day',
     'mixing-potatoes-with-rice-pasta-and-bread',
-    'brainless-weight-loss',
+  ],
+  'how-i-make-my-favorite-meals-more-filling-without-changing-them': [
+    'you-dont-have-to-completely-change-your-diet-to-lose-weight',
+    'how-i-eat-pizza-without-cheat-day',
+    'mixing-potatoes-with-rice-pasta-and-bread',
   ],
   'mixing-potatoes-with-rice-pasta-and-bread': [
+    'how-i-make-my-favorite-meals-more-filling-without-changing-them',
     'cheat-code-foods-for-hunger',
     'how-i-eat-pizza-without-cheat-day',
-    'you-dont-have-to-completely-change-your-diet-to-lose-weight',
   ],
   'how-i-eat-pizza-without-cheat-day': [
+    'how-i-make-my-favorite-meals-more-filling-without-changing-them',
     'i-treat-my-calories-like-a-daily-budget',
     'how-i-save-calories-earlier-in-the-day',
-    'you-dont-have-to-completely-change-your-diet-to-lose-weight',
   ],
   'i-treat-my-calories-like-a-daily-budget': [
     'how-i-save-calories-earlier-in-the-day',
