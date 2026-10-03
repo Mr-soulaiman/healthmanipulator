@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        try {
+          var currentFetch = window.fetch ? window.fetch.bind(window) : undefined;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function () {
+              return currentFetch;
+            },
+            set: function (fn) {
+              currentFetch = fn;
+            },
+          });
+        } catch (e) {
+          // Ignore if environment disallows redefinition
+        }
+      })();
+    </script>
+    <title>Brainless Weight Loss – Simple Ideas for Less Stressful Weight Loss</title>
+    <meta
+      name="description"
+      content="Simple ideas for making weight loss less stressful. A personal blog sharing low-effort habits, mindset shifts, and real-life experience."
+    />
+    <meta property="og:title" content="Brainless Weight Loss – Simple Ideas for Less Stressful Weight Loss" />
+    <meta
+      property="og:description"
+      content="Simple ideas for making weight loss less stressful. A personal blog sharing low-effort habits, mindset shifts, and real-life experience."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Brainless Weight Loss" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Brainless Weight Loss – Simple Ideas for Less Stressful Weight Loss" />
+    <meta
+      name="twitter:description"
+      content="Simple ideas for making weight loss less stressful. A personal blog sharing low-effort habits, mindset shifts, and real-life experience."
+    />
+    <link rel="canonical" href="https://healthmanipulator.vercel.app/" />
+    <meta property="og:url" content="https://healthmanipulator.vercel.app/" />
+    <link rel="icon" type="image/png" href="/src/assets/branding/logo_symbol.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "HealthManipulator",
+        "url": "https://healthmanipulator.vercel.app/",
+        "description": "Simple ideas for making weight loss less stressful. A personal blog sharing practical, everyday habits from real-life experience.",
+        "inLanguage": "en-US"
+      }
+    </script>
+  </head>
+  <body class="bg-white text-[#2C221E] antialiased selection:bg-[#E8C574]/50 selection:text-[#2C221E]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
