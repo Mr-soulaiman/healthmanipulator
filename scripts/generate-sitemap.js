@@ -13,7 +13,7 @@ if (!fs.existsSync(publicDir)) {
   fs.mkdirSync(publicDir, { recursive: true });
 }
 
-// Extract slugs from siteConfig.ts
+// Extract slugs from siteConfig.ts preserving defined order
 const content = fs.readFileSync(siteConfigPath, 'utf-8');
 const slugRegex = /slug:\s*['"]([^'"]+)['"]/g;
 const slugs = [];
@@ -24,25 +24,20 @@ while ((match = slugRegex.exec(content)) !== null) {
   }
 }
 
-const staticRoutes = [
-  { path: '', priority: '1.0', changefreq: 'weekly' },
-  { path: '/blog', priority: '0.9', changefreq: 'daily' },
-  { path: '/calorie-calculator', priority: '0.9', changefreq: 'monthly' },
-  { path: '/about', priority: '0.8', changefreq: 'monthly' },
-];
+const staticRoutes = ['', '/blog', '/calorie-calculator', '/about'];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
-// Static routes
+// Static public routes
 for (const route of staticRoutes) {
-  const loc = route.path === '' ? `${BASE_URL}/` : `${BASE_URL}${route.path}`;
-  xml += `  <url>\n    <loc>${loc}</loc>\n    <changefreq>${route.changefreq}</changefreq>\n    <priority>${route.priority}</priority>\n  </url>\n`;
+  const loc = route === '' ? `${BASE_URL}/` : `${BASE_URL}${route}`;
+  xml += `  <url>\n    <loc>${loc}</loc>\n  </url>\n`;
 }
 
-// Article routes
+// Published article routes
 for (const slug of slugs) {
   const loc = `${BASE_URL}/blog/${slug}`;
-  xml += `  <url>\n    <loc>${loc}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${loc}</loc>\n  </url>\n`;
 }
 
 xml += `</urlset>\n`;

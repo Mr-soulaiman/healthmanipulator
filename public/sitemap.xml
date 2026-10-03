@@ -2,102 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://healthmanipulator.vercel.app/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/calorie-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/brainless-weight-loss</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/how-i-make-my-favorite-meals-more-filling-without-changing-them</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/you-dont-need-to-start-a-new-diet-every-monday</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/why-too-much-free-time-can-make-losing-weight-harder</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/my-favorite-trick-for-dealing-with-cravings</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/the-10-minute-trick-i-use-when-im-extremely-hungry</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/cheat-code-foods-for-hunger</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/soup-and-low-calorie-drinks</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/you-dont-have-to-completely-change-your-diet-to-lose-weight</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/mixing-potatoes-with-rice-pasta-and-bread</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/how-i-eat-pizza-without-cheat-day</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/i-treat-my-calories-like-a-daily-budget</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/how-i-save-calories-earlier-in-the-day</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/i-ate-too-much-what-now</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/weight-loss-isnt-a-30-day-challenge</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://healthmanipulator.vercel.app/blog/what-i-do-when-im-very-hungry-before-cooking</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>

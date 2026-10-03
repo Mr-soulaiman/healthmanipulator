@@ -113,9 +113,9 @@ export const SITE_CONFIG = {
   },
 
   hero: {
-    headline: 'Simple ideas for making weight loss less stressful.',
+    headline: 'What if losing weight didn’t have to take over your life?',
     intro:
-      'A personal blog about losing weight without perfectionism, exhausting routines, or constant mental math.',
+      'I’m sharing the little things I’ve learned that made losing weight feel simpler — without perfectionism, exhausting routines, or constantly thinking about food.',
     image: heroImg,
     imageAlt:
       'Neo-brutalist editorial illustration of an ordinary person calmly walking away from chaotic diet overthinking into a spacious, relaxed everyday life',

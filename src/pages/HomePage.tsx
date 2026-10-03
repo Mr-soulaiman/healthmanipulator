@@ -45,12 +45,20 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
 
               <h1
                 id="hero-heading"
-                className="mb-4 font-display text-3xl font-bold leading-[1.12] text-[#172033] sm:text-4xl lg:text-[44px]"
+                className="mb-6 max-w-xl font-display text-3xl font-bold tracking-[-0.02em] leading-[1.25] text-[#172033] sm:text-4xl sm:leading-[1.2] md:text-5xl md:leading-[1.15] lg:text-[50px] lg:leading-[1.12] xl:text-[54px]"
               >
-                {SITE_CONFIG.hero.headline}
+                <span className="inline-block rounded-[4px] border-[2px] border-[#172033] bg-[#F7F3EA] px-2.5 py-0.5 my-1 shadow-[3px_3px_0_#172033]">
+                  What if losing
+                </span>{' '}
+                <span className="inline-block rounded-[4px] border-[2px] border-[#172033] bg-[#F7F3EA] px-2.5 py-0.5 my-1 shadow-[3px_3px_0_#172033]">
+                  weight didn’t have to
+                </span>{' '}
+                <span className="inline-block rounded-[4px] border-[2px] border-[#172033] bg-[#F7F3EA] px-2.5 py-0.5 my-1 shadow-[3px_3px_0_#172033]">
+                  take over your life?
+                </span>
               </h1>
 
-              <p className="mb-7 text-base leading-relaxed text-[#2A354B] sm:text-[17px]">
+              <p className="mb-7 max-w-lg text-base leading-relaxed text-[#2A354B] sm:text-[17px]">
                 {SITE_CONFIG.hero.intro}
               </p>
 
