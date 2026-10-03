@@ -3374,7 +3374,7 @@ export const BLOG_POSTS: BlogPost[] = [
         blocks: [
           {
             type: 'p',
-            text: 'Imagine you have a certain amount of money to spend during the day.',
+            text: 'Imagine you have a certain amount of money to spend during the day—much like using a [calorie calculator](/calorie-calculator) to get a clear estimate of your daily budget.',
           },
           { type: 'p', text: 'You can spend it early.' },
           { type: 'p', text: 'You can save some for later.' },
@@ -3619,7 +3619,7 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: 'If I know I\'m going to want something good later, I can make room for it.',
+            text: 'Once you [calculate your maintenance calories](/calorie-calculator), making room for something good later becomes a straightforward trade-off.',
           },
           {
             type: 'p',

@@ -27,6 +27,7 @@ while ((match = slugRegex.exec(content)) !== null) {
 const staticRoutes = [
   { path: '', priority: '1.0', changefreq: 'weekly' },
   { path: '/blog', priority: '0.9', changefreq: 'daily' },
+  { path: '/calorie-calculator', priority: '0.9', changefreq: 'monthly' },
   { path: '/about', priority: '0.8', changefreq: 'monthly' },
 ];
 

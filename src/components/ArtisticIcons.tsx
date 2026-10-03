@@ -111,6 +111,45 @@ export const PainterlyCloseIcon: React.FC<{ className?: string }> = ({
   </svg>
 );
 
+export const PainterlyCheckIcon: React.FC<{ className?: string }> = ({
+  className = 'h-4 w-4',
+}) => (
+  <svg
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    aria-hidden="true"
+  >
+    <path
+      d="M4 10.5L8 14.5L16 6"
+      stroke="currentColor"
+      strokeWidth="2.8"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
+    />
+  </svg>
+);
+
+export const PainterlyRefreshIcon: React.FC<{ className?: string }> = ({
+  className = 'h-4 w-4',
+}) => (
+  <svg
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    aria-hidden="true"
+  >
+    <path
+      d="M3.5 10A6.5 6.5 0 1 0 5.5 5.5L3.5 3.5M3.5 3.5V7.5M3.5 3.5H7.5"
+      stroke="currentColor"
+      strokeWidth="2.4"
+      strokeLinecap="square"
+    />
+  </svg>
+);
+
 export const PainterlyBrushDivider: React.FC<{ className?: string }> = ({
   className = 'h-3 w-28',
 }) => (
@@ -127,3 +166,5 @@ export const PainterlyBrushDivider: React.FC<{ className?: string }> = ({
     <rect x="108" y="3" width="6.5" height="6.5" fill="#B9A7E8" stroke="#172033" strokeWidth="1.5" />
   </svg>
 );
+
+

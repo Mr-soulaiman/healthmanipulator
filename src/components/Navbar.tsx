@@ -17,6 +17,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
 
   const isHome = currentPath === '/';
   const isBlog = currentPath === '/blog' || currentPath.startsWith('/blog/');
+  const isCalculator = currentPath === '/calorie-calculator' || currentPath === '/calorie-calculator/';
   const isAbout = currentPath === '/about';
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
@@ -43,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
 
         <nav
           aria-label="Primary Navigation"
-          className="hidden items-center gap-8 text-[15px] font-semibold text-[#172033] sm:flex"
+          className="hidden items-center gap-7 text-[15px] font-semibold text-[#172033] sm:flex"
         >
           <a
             href="/"
@@ -66,6 +67,17 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
             }`}
           >
             Blog
+          </a>
+          <a
+            href="/calorie-calculator"
+            onClick={(e) => handleNavClick(e, '/calorie-calculator')}
+            className={`relative py-1 transition-colors hover:text-[#F06449] ${
+              isCalculator
+                ? 'font-bold text-[#172033] after:absolute after:-bottom-0.5 after:left-0 after:h-[3px] after:w-full after:bg-[#F06449]'
+                : ''
+            }`}
+          >
+            Calorie Calculator
           </a>
           <a
             href="/about"
@@ -118,6 +130,17 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
               }`}
             >
               Blog
+            </a>
+            <a
+              href="/calorie-calculator"
+              onClick={(e) => handleNavClick(e, '/calorie-calculator')}
+              className={`rounded-[6px] border-2 px-3.5 py-2.5 text-base font-semibold transition-colors ${
+                isCalculator
+                  ? 'border-[#172033] bg-[#9ED8C5] text-[#172033] shadow-[2.5px_2.5px_0_#172033]'
+                  : 'border-transparent text-[#172033] hover:border-[#172033] hover:bg-[#FFFDF8]'
+              }`}
+            >
+              Calorie Calculator
             </a>
             <a
               href="/about"

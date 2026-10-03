@@ -11,6 +11,7 @@ import { HomePage } from './pages/HomePage';
 import { BlogPage } from './pages/BlogPage';
 import { ArticleDetailPage } from './pages/ArticleDetailPage';
 import { AboutPage } from './pages/AboutPage';
+import { CalorieCalculatorPage } from './pages/CalorieCalculatorPage';
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState<string>(() => {
@@ -53,6 +54,10 @@ export default function App() {
 
     if (currentPath === '/about' || currentPath === '/about/') {
       return <AboutPage />;
+    }
+
+    if (currentPath === '/calorie-calculator' || currentPath === '/calorie-calculator/') {
+      return <CalorieCalculatorPage onNavigate={handleNavigate} />;
     }
 
     return <HomePage onNavigate={handleNavigate} />;

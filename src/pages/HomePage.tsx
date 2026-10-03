@@ -126,6 +126,54 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           </div>
         </section>
 
+        {/* 2.5 CALORIE CALCULATOR PROMPT CARD */}
+        <section
+          aria-labelledby="calculator-tool-heading"
+          className="overflow-hidden rounded-[8px] border-[3px] border-[#172033] bg-[#FFFDF8] shadow-[5px_5px_0_#172033]"
+        >
+          <div aria-hidden="true" className="h-2 w-full border-b-[2px] border-[#172033] bg-[#9ED8C5]" />
+          <div className="flex flex-col items-start justify-between gap-6 p-6 sm:flex-row sm:items-center sm:p-8">
+            <div className="flex items-center gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-[6px] border-[2px] border-[#172033] bg-[#F7F3EA] shadow-[3px_3px_0_#172033]">
+                <img
+                  src={SITE_CONFIG.branding.mascotGesture}
+                  alt=""
+                  aria-hidden="true"
+                  className="h-9 w-auto object-contain"
+                />
+              </div>
+              <div>
+                <span className="text-xs font-bold text-[#F06449] uppercase">
+                  Simple Free Tool
+                </span>
+                <h2
+                  id="calculator-tool-heading"
+                  className="font-display text-xl font-bold text-[#172033] sm:text-2xl"
+                >
+                  Calorie Calculator
+                </h2>
+                <p className="mt-0.5 text-sm text-[#4E5B73]">
+                  Want a quick estimate of your daily calorie needs and maintenance baseline?
+                </p>
+              </div>
+            </div>
+
+            <a
+              href="/calorie-calculator"
+              onClick={(e) => {
+                if (!e.metaKey && !e.ctrlKey) {
+                  e.preventDefault();
+                  onNavigate('/calorie-calculator');
+                }
+              }}
+              className="btn-painterly inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-[6px] px-5 py-2.5 text-sm font-bold shadow-[3px_3px_0_#172033]"
+            >
+              <span>Calculate yours</span>
+              <PainterlyArrowRight className="h-4 w-4" />
+            </a>
+          </div>
+        </section>
+
         {/* 3. FEATURED / LATEST ARTICLES */}
         <section aria-labelledby="latest-articles-heading" className="space-y-7">
           <div className="flex items-end justify-between border-b-[3px] border-[#172033] pb-3.5">
