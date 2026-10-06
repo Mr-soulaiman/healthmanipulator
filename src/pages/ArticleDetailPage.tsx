@@ -18,10 +18,15 @@ interface ArticleDetailPageProps {
  * - Sustainable Mindset & Habits
  */
 const TOPICAL_RELATED_MAP: Record<string, string[]> = {
+  'what-i-do-when-im-about-to-mess-up-my-diet': [
+    'the-10-minute-trick-i-use-when-im-extremely-hungry',
+    'i-ate-too-much-what-now',
+    'how-i-make-my-favorite-meals-more-filling-without-changing-them',
+  ],
   'brainless-weight-loss': [
+    'what-i-do-when-im-about-to-mess-up-my-diet',
     'you-dont-need-to-start-a-new-diet-every-monday',
     'weight-loss-isnt-a-30-day-challenge',
-    'you-dont-have-to-completely-change-your-diet-to-lose-weight',
   ],
   'you-dont-need-to-start-a-new-diet-every-monday': [
     'i-ate-too-much-what-now',

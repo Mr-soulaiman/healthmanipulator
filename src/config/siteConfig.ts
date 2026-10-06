@@ -47,6 +47,9 @@ import notChallenge3SteppingStonesImg from '../assets/images/neobrutalist_not_ch
 import beforeCooking1HungryHeroImg from '../assets/images/neobrutalist_before_cooking_1_hungry_kitchen_hero_1790841409578.jpg';
 import beforeCooking2SimpleBridgeImg from '../assets/images/neobrutalist_before_cooking_2_simple_bridge_1790841426147.jpg';
 import beforeCooking3CalmFinishedMealImg from '../assets/images/neobrutalist_before_cooking_3_calm_finished_meal_1790841436838.jpg';
+import messUpHeroImg from '../assets/images/pause_before_eat_1791280064410.jpg';
+import mirrorPauseImg from '../assets/images/mirror_frustration_1791280328719.jpg';
+import smallerMealPlateImg from '../assets/images/smaller_meal_1791279320578.jpg';
 
 // HealthManipulator Brand Assets
 import logoFullImg from '../assets/branding/logo_full.png';
@@ -364,11 +367,13 @@ export const BLOG_POSTS: BlogPost[] = [
             type: 'p',
             text: "If I'm very hungry and someone puts pizza in front of me, asking me to eat a tiny portion isn't exactly setting me up for success.",
           },
-          { type: 'p', text: 'So I might eat something more filling first.' },
-          { type: 'p', text: 'Potatoes and chicken, for example.' },
           {
             type: 'p',
-            text: "Then I can have some pizza because I actually want the pizza — not because I'm trying to use it to solve a massive hunger problem.",
+            text: 'So instead of asking the pizza to do all the work, I might have a couple of slices and pair them with a simple chicken salad or fresh vegetables with a light dressing.',
+          },
+          {
+            type: 'p',
+            text: "Then I can enjoy the pizza because I actually want the pizza — not because I'm trying to use it to solve a massive hunger problem.",
           },
           {
             type: 'p',
@@ -478,12 +483,309 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
+    id: 'post-about-to-mess-up-diet',
+    slug: 'what-i-do-when-im-about-to-mess-up-my-diet',
+    title: "What I Do When I'm About to Mess Up My Diet",
+    seoTitle: "What I Do When I'm About to Mess Up My Diet",
+    metaDescription:
+      "Standing in the kitchen thinking 'screw it, I'll start again tomorrow'? Here are the small, low-effort pauses I use to interrupt impulsive overeating before it spirals.",
+    excerpt:
+      "There are moments when you're standing in the kitchen thinking 'screw it, I'll start again tomorrow.' Here is what I do to interrupt that decision before it turns into an all-or-nothing spiral.",
+    category: 'Mindset & Habits',
+    date: 'October 6, 2026',
+    author: 'Salman Martah',
+    image: messUpHeroImg,
+    cardAccentBg: '#F4D35E',
+    bottomDisclaimer:
+      'These posts are based on my personal experience. They are not medical advice, and what works for one person may not work for another.',
+    sections: [
+      {
+        blocks: [
+          {
+            type: 'p',
+            text: "There are moments when I know exactly what I'm about to do.",
+          },
+          {
+            type: 'p',
+            text: "I'm standing in the kitchen, looking at something I wasn't planning to eat, and thinking:",
+          },
+          {
+            type: 'blockquote',
+            text: '"Screw it. I\'ll start again tomorrow."',
+          },
+          {
+            type: 'p',
+            text: 'And honestly, those are usually the moments that matter the most.',
+          },
+          {
+            type: 'p',
+            text: 'Not because eating the food would somehow ruin everything.',
+          },
+          { type: 'p', text: "It wouldn't." },
+          {
+            type: 'p',
+            text: 'It\'s more because I know how easily one "screw it" moment can turn into eating way more than I actually wanted.',
+          },
+          {
+            type: 'p',
+            text: 'So when I feel myself getting close to that point, I have a few little tricks I use to interrupt it.',
+          },
+          { type: 'p', text: 'Nothing complicated.' },
+          {
+            type: 'p',
+            text: 'I just try to give myself a few minutes before making the decision.',
+          },
+        ],
+        illustrationAfter: {
+          src: messUpHeroImg,
+          alt: 'Neo-brutalist editorial illustration of a person pausing thoughtfully in a kitchen before deciding what to eat, stepping back with calm clarity',
+          accentBg: '#F7F3EA',
+          aspectClass: 'aspect-[16/9] w-full',
+        },
+      },
+      {
+        heading: 'Sometimes I look at myself in the mirror',
+        blocks: [
+          {
+            type: 'p',
+            text: 'This sounds a little stupid, but it works for me.',
+          },
+          {
+            type: 'p',
+            text: "If I'm about to throw away a whole day because I'm annoyed, bored, or craving something, I'll sometimes go look in the mirror.",
+          },
+          { type: 'p', text: 'Not to insult myself.' },
+          {
+            type: 'p',
+            text: 'Not to tell myself that I look terrible.',
+          },
+          { type: 'p', text: 'Just to remind myself:' },
+          {
+            type: 'blockquote',
+            text: '"This is the reason I started."',
+          },
+          { type: 'p', text: "That's enough." },
+          { type: 'p', text: "I don't need to hate how I look." },
+          {
+            type: 'p',
+            text: 'I just need to remember that I started losing weight because I wanted something to change.',
+          },
+          {
+            type: 'p',
+            text: 'And usually, that little pause makes the decision feel less automatic.',
+          },
+        ],
+        illustrationAfter: {
+          src: mirrorPauseImg,
+          alt: 'Neo-brutalist editorial illustration of an overweight man looking in the mirror, visibly dissatisfied with his shape and confronting his reflection',
+          accentBg: '#F7F3EA',
+          aspectClass: 'aspect-[16/9] w-full',
+        },
+      },
+      {
+        heading: 'I ask myself one question',
+        blocks: [
+          {
+            type: 'p',
+            text: '**"Do I actually want this, or am I just having one of those moments?"**',
+          },
+          { type: 'p', text: 'Sometimes the answer is:' },
+          { type: 'p', text: '*"Yeah, I actually want it."*' },
+          { type: 'p', text: 'Fair enough.' },
+          { type: 'p', text: "I'll eat it." },
+          {
+            type: 'p',
+            text: "Other times, I realize I'm not even that hungry. I just want something because I'm bored, tired, or because I've been thinking about food for the last 20 minutes.",
+          },
+          {
+            type: 'p',
+            text: 'Those are two very different situations.',
+          },
+        ],
+      },
+      {
+        heading: 'I give myself ten minutes',
+        blocks: [
+          {
+            type: 'p',
+            text: "I've written about my [10-minute trick](/blog/the-10-minute-trick-i-use-when-im-extremely-hungry) before, and I use the same idea here.",
+          },
+          { type: 'p', text: "I don't tell myself:" },
+          { type: 'p', text: '**"You can\'t have it."**' },
+          { type: 'p', text: 'I just tell myself:' },
+          {
+            type: 'p',
+            text: '**"Not yet. Give it ten minutes."**',
+          },
+          {
+            type: 'p',
+            text: "I'll have some water, make a coffee, walk around, do something else, or just leave the kitchen.",
+          },
+          { type: 'p', text: 'Sometimes the craving disappears.' },
+          { type: 'p', text: "Sometimes it doesn't." },
+          { type: 'p', text: "And that's fine." },
+          {
+            type: 'p',
+            text: "The point isn't to win some heroic battle against food.",
+          },
+          {
+            type: 'p',
+            text: 'The point is to stop myself from making the decision on autopilot.',
+          },
+        ],
+      },
+      {
+        heading: 'I make the meal smaller instead of turning it into a disaster',
+        blocks: [
+          {
+            type: 'p',
+            text: 'This one is probably the most useful.',
+          },
+          { type: 'p', text: "Let's say I really want pizza." },
+          { type: 'p', text: 'My brain might go:' },
+          {
+            type: 'p',
+            text: '*"Well, I\'ve already messed up, so I might as well eat everything."*',
+          },
+          { type: 'p', text: "That's the part I try to stop." },
+          { type: 'p', text: "I don't need to choose between:" },
+          { type: 'p', text: '**eat nothing**' },
+          { type: 'p', text: 'or' },
+          { type: 'p', text: '**eat the entire pizza.**' },
+          { type: 'p', text: 'I can just have some.' },
+          {
+            type: 'p',
+            text: 'And if I know I want something filling with it, I can make the meal work around that.',
+          },
+          {
+            type: 'p',
+            text: 'A smaller portion of the food I actually wanted, some salad, and some protein can be much more satisfying than sitting there feeling like I\'ve "failed" and then eating whatever I can find.',
+          },
+          {
+            type: 'p',
+            text: "That connects directly to [How I Make My Favorite Meals More Filling Without Changing Them](/blog/how-i-make-my-favorite-meals-more-filling-without-changing-them) — keeping the food I crave while changing the proportions around it.",
+          },
+          {
+            type: 'p',
+            text: "That's one of the biggest changes I've made.",
+          },
+        ],
+        illustrationAfter: {
+          src: smallerMealPlateImg,
+          alt: 'Neo-brutalist overhead tabletop illustration showing an intentional meal with a smaller portion of pizza paired with fresh salad and lean protein',
+          accentBg: '#F7F3EA',
+          aspectClass: 'aspect-[16/9] w-full',
+        },
+      },
+      {
+        heading: "I don't try to be perfect",
+        blocks: [
+          {
+            type: 'p',
+            text: 'This is probably the most important part.',
+          },
+          {
+            type: 'p',
+            text: "If I eat something I wasn't planning to eat, I don't consider the diet finished.",
+          },
+          { type: 'p', text: "I don't say:" },
+          { type: 'p', text: '*"Well, today is ruined."*' },
+          {
+            type: 'p',
+            text: 'Because what exactly does that accomplish?',
+          },
+          { type: 'p', text: "I've already eaten the thing." },
+          {
+            type: 'p',
+            text: 'The only decision left is what I do next.',
+          },
+          { type: 'p', text: 'I can stop there.' },
+          { type: 'p', text: 'I can have my next normal meal.' },
+          {
+            type: 'p',
+            text: 'I can continue tomorrow without needing some dramatic restart, like I wrote about in [I Ate Too Much. What Now?](/blog/i-ate-too-much-what-now) and [You Don\'t Need to Start a New Diet Every Monday](/blog/you-dont-need-to-start-a-new-diet-every-monday).',
+          },
+          {
+            type: 'p',
+            text: "One meal doesn't need to become a whole weekend.",
+          },
+        ],
+      },
+      {
+        heading: 'Sometimes I actually eat it',
+        blocks: [
+          {
+            type: 'p',
+            text: 'And yes, sometimes I look in the mirror, wait ten minutes, think about it...',
+          },
+          { type: 'p', text: 'And still eat the food.' },
+          { type: 'p', text: "That's okay too." },
+          {
+            type: 'p',
+            text: "I'm trying to lose weight, not become a robot that never wants pizza, chocolate, burgers, or anything else.",
+          },
+          {
+            type: 'p',
+            text: "The difference is that I'm making a conscious decision instead of letting one craving decide what happens for the rest of the day.",
+          },
+          {
+            type: 'p',
+            text: "That's a much more useful skill for me.",
+          },
+        ],
+      },
+      {
+        heading: "The goal isn't to scare myself",
+        blocks: [
+          {
+            type: 'p',
+            text: 'I used to think I needed some huge burst of motivation to stay on track.',
+          },
+          { type: 'p', text: "I don't think that anymore." },
+          {
+            type: 'p',
+            text: 'Most of the time, I just need to interrupt the moment.',
+          },
+          { type: 'p', text: 'Look in the mirror.' },
+          { type: 'p', text: 'Walk away for ten minutes.' },
+          {
+            type: 'p',
+            text: 'Ask myself what I actually want.',
+          },
+          {
+            type: 'p',
+            text: 'Make the portion smaller if I decide to eat it.',
+          },
+          { type: 'p', text: 'Then move on.' },
+          { type: 'p', text: 'No insults.' },
+          { type: 'p', text: 'No guilt.' },
+          {
+            type: 'p',
+            text: 'No "I\'ll start again Monday."',
+          },
+          {
+            type: 'p',
+            text: 'Just one small pause between the craving and the decision.',
+          },
+          {
+            type: 'p',
+            text: "And honestly, sometimes that's enough.",
+          },
+          {
+            type: 'blockquote',
+            text: '**You don\'t need to hate yourself to make a better choice. Sometimes you just need to give yourself a minute before making it.**',
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: 'post-favorite-meals-filling',
     slug: 'how-i-make-my-favorite-meals-more-filling-without-changing-them',
     title: 'How I Make My Favorite Meals More Filling Without Changing Them',
     seoTitle: 'How I Make My Favorite Meals More Filling Without Changing Them',
     metaDescription:
-      "Instead of replacing my favorite meals with diet food, I eat a smaller portion of what I actually want and add filling sides like salad, vegetables, or potatoes.",
+      "Instead of replacing my favorite meals with diet food, I eat a smaller portion of what I actually want, reduce heavy sides and sauces, and add a simple salad or lean protein to stay full.",
     excerpt:
       "I don't always want the lighter version of a meal. Instead of replacing pizza, burgers, or pasta with diet food, I eat what I actually wanted and make room around it.",
     category: 'Food & Swaps',
@@ -507,29 +809,29 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: "And honestly, replacing those meals with a salad just because I'm trying to lose weight doesn't work very well for me.",
+            text: "And honestly, replacing those meals with a plain salad just because I'm trying to lose weight doesn't work very well for me.",
           },
           {
             type: 'p',
-            text: "I'd rather eat a smaller amount of the food I actually wanted, then add something filling on the side.",
+            text: "I'd rather eat a smaller amount of the food I actually wanted, then change the proportions around it to make the whole meal filling.",
           },
           {
             type: 'p',
-            text: "That's one of the little tricks that has made eating less feel much easier for me.",
+            text: "That's one of the little shifts that has made eating less feel much easier for me.",
           },
         ],
       },
       {
-        heading: "I don't replace the meal. I make room around it.",
+        heading: "I don't replace the meal. I change the proportions around it.",
         blocks: [
           { type: 'p', text: "Let's say I'm having pizza." },
           {
             type: 'p',
-            text: 'I could eat four slices and still feel like I want more.',
+            text: 'I could eat four or five slices and still feel like I want more.',
           },
           {
             type: 'p',
-            text: "Or I could have two or three slices and add a big salad or some vegetables. If I know I'm still going to be hungry, I can add some boiled or air-fried potatoes too.",
+            text: "Or I could have two slices, skip the heavy dipping sauce, and have it with a big, simple salad and some chicken. That way I still get to eat the pizza I actually wanted, but the salad and chicken do the heavy lifting of filling me up without adding a huge amount of calories.",
           },
           { type: 'p', text: "I'm still eating pizza." },
           { type: 'p', text: "That's the part I like." },
@@ -546,23 +848,16 @@ export const BLOG_POSTS: BlogPost[] = [
           { type: 'p', text: '**The usual way**' },
           {
             type: 'p',
-            text: "I eat the amount of pizza I normally want, and that's basically the whole meal.",
+            text: "I eat as many slices of pizza as I normally want, maybe add heavy dipping sauces, and that's basically the whole meal.",
           },
           { type: 'p', text: '**What I do instead**' },
           {
             type: 'p',
-            text: 'I reduce the amount of pizza a little and add something that gives me more food without adding as many calories.',
+            text: 'I have a smaller portion of the pizza—roughly half what I would normally eat is a good example—and change what surrounds it on the table.',
           },
-          { type: 'p', text: 'That could be:' },
-          { type: 'p', text: '• A big chicken salad' },
-          { type: 'p', text: '• Vegetables' },
-          { type: 'p', text: '• A simple salad' },
-          { type: 'p', text: '• Boiled potatoes' },
-          { type: 'p', text: '• Air-fried potatoes' },
-          {
-            type: 'p',
-            text: "The choice depends on what I have and what I'm in the mood for.",
-          },
+          { type: 'p', text: '• I skip or cut back on heavy dipping sauces' },
+          { type: 'p', text: '• I add a generous, simple salad with a light dressing' },
+          { type: 'p', text: '• I add some grilled chicken or another lean protein source if I want extra fullness' },
           {
             type: 'p',
             text: "The important part is that I didn't have to give up the pizza.",
@@ -583,26 +878,25 @@ export const BLOG_POSTS: BlogPost[] = [
           { type: 'p', text: 'Pasta is another easy example.' },
           {
             type: 'p',
-            text: "If I make a huge bowl of pasta, it's very easy for the calories to add up without the plate looking particularly crazy.",
+            text: "If I make a huge bowl of pasta with lots of heavy sauce, it's very easy for the calories to add up quickly.",
           },
           {
             type: 'p',
-            text: 'So instead of making the pasta disappear from my diet, I can simply make the pasta portion smaller.',
+            text: 'So instead of trying to eliminate pasta, I simply make the pasta portion smaller.',
           },
-          { type: 'p', text: 'Then I have room for something else.' },
-          { type: 'p', text: 'For example:' },
+          { type: 'p', text: 'Then I make the rest of the plate work for me:' },
           {
             type: 'blockquote',
-            text: 'Less pasta + chicken + a big salad',
+            text: 'Smaller portion of pasta + chicken for protein + a big salad with a simple dressing',
           },
           { type: 'p', text: 'Or:' },
           {
             type: 'blockquote',
-            text: 'Less pasta + vegetables + some potatoes',
+            text: 'Less pasta + mixed vegetables + lean protein + a lighter sauce',
           },
           {
             type: 'p',
-            text: 'It still looks and feels like a proper meal.',
+            text: "By going easy on heavy cream or excessive oil in the sauce and adding chicken and vegetables, the plate still looks and feels like a proper, generous dinner.",
           },
           { type: 'p', text: "That's what I'm looking for." },
           {
@@ -611,7 +905,7 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: "I'd rather have a meal that is a little different in proportions but still feels satisfying.",
+            text: "I'd rather have a meal that is a little different in proportions but still feels completely satisfying.",
           },
         ],
       },
@@ -636,11 +930,15 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: 'Instead of a huge portion of fries, I can have fewer fries and add a salad or some vegetables.',
+            text: 'Instead of an enormous mound of fries, I might have a much smaller portion of fries or swap part of them for a simple salad or vegetables.',
           },
           {
             type: 'p',
-            text: 'Or I can have a smaller amount of fries and some boiled or air-fried potatoes if I want more food.',
+            text: 'I can also avoid drowning the meal in heavy, fatty sauces or extra mayo.',
+          },
+          {
+            type: 'p',
+            text: 'Adding a fresh side salad with a light dressing gives me all the crunch and volume I want alongside the burger.',
           },
           { type: 'p', text: 'The burger is still there.' },
           { type: 'p', text: "And that's important to me." },
@@ -659,30 +957,34 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: 'If I normally have a large amount of rice with my chicken, I can simply reduce the rice a little.',
+            text: "This meal already contains chicken, so I don't need to add extra protein.",
           },
           {
             type: 'p',
-            text: 'Then I have space for vegetables, salad, or potatoes.',
+            text: 'If I normally have a very large mound of rice, I can simply reduce the rice portion a little and keep a reasonable serving of chicken.',
+          },
+          {
+            type: 'p',
+            text: 'Then I fill the rest of the plate with fresh vegetables or a big side salad.',
           },
           { type: 'p', text: 'For example:' },
           {
             type: 'blockquote',
-            text: 'Chicken + less rice + a big salad',
+            text: 'Reasonable chicken portion + less rice + a big salad with a simple dressing',
           },
           { type: 'p', text: 'Or:' },
           {
             type: 'blockquote',
-            text: 'Chicken + less rice + vegetables + some potatoes',
+            text: 'Chicken + smaller rice portion + plenty of steamed or roasted vegetables',
+          },
+          {
+            type: 'p',
+            text: 'I also keep any dressings or sauces simple rather than using very oily or creamy sauces.',
           },
           { type: 'p', text: "I'm not scared of rice." },
           {
             type: 'p',
-            text: "I'm just not trying to get all my fullness from rice.",
-          },
-          {
-            type: 'p',
-            text: 'This is also why I like mixing potatoes with rice, pasta or bread. You can read more about that in [Why I Started Mixing Potatoes With Rice, Pasta and Bread](/blog/mixing-potatoes-with-rice-pasta-and-bread).',
+            text: "I'm just not trying to get all my fullness from rice alone.",
           },
         ],
       },
@@ -696,19 +998,22 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: 'I can just have a slightly smaller portion and add something on the side.',
+            text: 'I can have the sandwich I actually like, keep heavy mayo or oily sauces moderate, and add something filling on the side.',
           },
-          { type: 'p', text: 'A salad.' },
-          { type: 'p', text: 'Some vegetables.' },
-          { type: 'p', text: 'Potatoes.' },
-          { type: 'p', text: 'Whatever makes sense with the meal.' },
+          { type: 'p', text: 'A big, crisp salad.' },
+          { type: 'p', text: 'Some raw or cooked vegetables.' },
+          { type: 'p', text: 'A little extra lean protein if the sandwich itself was light on protein.' },
           {
             type: 'p',
             text: 'The same idea works with tacos or similar meals.',
           },
           {
             type: 'p',
-            text: "Keep the food you actually enjoy. Just don't make the main food responsible for filling the entire plate.",
+            text: 'I can enjoy two or three tacos instead of six, skip the heavy sour cream or cheese dips, and have a big fresh salad on the side with a light salsa or simple dressing.',
+          },
+          {
+            type: 'p',
+            text: "Keep the food you actually enjoy. Just don't make the calorie-dense food responsible for filling the entire plate.",
           },
         ],
       },
@@ -724,17 +1029,13 @@ export const BLOG_POSTS: BlogPost[] = [
             type: 'p',
             text: "If I'm eating fried chicken, I can keep the chicken and change the amount of the things around it.",
           },
-          { type: 'p', text: 'A little less fries.' },
-          { type: 'p', text: 'A big salad.' },
-          { type: 'p', text: 'Some vegetables.' },
-          {
-            type: 'p',
-            text: 'Maybe some boiled or air-fried potatoes if I want more volume.',
-          },
+          { type: 'p', text: 'I reduce or skip the heavy fries and calorie-dense sides.' },
+          { type: 'p', text: 'I skip or reduce heavy dipping sauces.' },
+          { type: 'p', text: 'I add a big, crunchy salad with a simple, light dressing or some fresh vegetables.' },
           { type: 'p', text: "It's not magic." },
           {
             type: 'p',
-            text: "It's just moving some of the calories from foods that are easy to eat a lot of toward foods that let me eat more.",
+            text: "It's just moving some of the calories from heavy sides and sauces toward foods that let me eat a lot more volume.",
           },
         ],
       },
@@ -747,15 +1048,15 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: "I don't need to make the steak smaller just because I'm trying to lose weight.",
+            text: "I don't need to make the steak tiny just because I'm trying to lose weight.",
           },
           {
             type: 'p',
-            text: 'If the meal normally comes with a mountain of fries, I can simply have fewer fries and add a large salad or vegetables.',
+            text: 'If the meal normally comes with a mountain of fries and heavy butter or peppercorn cream sauces, I can simply have fewer fries and cut back on the heavy sauce.',
           },
           {
             type: 'p',
-            text: "And if I'm still hungry, I can add potatoes prepared in a way that doesn't require a lot of oil.",
+            text: 'Then I add a large salad with a simple dressing, or a generous portion of grilled or steamed vegetables.',
           },
           { type: 'p', text: "The goal isn't to make the meal tiny." },
           {
@@ -798,30 +1099,23 @@ export const BLOG_POSTS: BlogPost[] = [
           { type: 'p', text: 'I think about it like this:' },
           {
             type: 'blockquote',
-            text: 'A little less of the calorie-dense food + more of something filling = a meal that can feel much bigger.',
+            text: 'A little less of the calorie-dense food + more filling sides or lean protein + less heavy sauce = a meal that can feel much bigger.',
           },
           {
             type: 'p',
-            text: 'And the "something filling" doesn\'t have to be the same every time.',
+            text: 'And the filling sides can be chosen based on what fits the meal naturally:',
           },
-          { type: 'p', text: 'It could be:' },
-          { type: 'p', text: '• Salad' },
-          { type: 'p', text: '• Vegetables' },
-          { type: 'p', text: '• Chicken' },
-          { type: 'p', text: '• Soup' },
-          { type: 'p', text: '• Boiled potatoes' },
-          { type: 'p', text: '• Air-fried potatoes' },
-          {
-            type: 'p',
-            text: '• Another food that I personally find filling for relatively few calories',
-          },
+          { type: 'p', text: '• A big crisp salad with a light dressing' },
+          { type: 'p', text: '• Fresh, steamed, or roasted vegetables' },
+          { type: 'p', text: '• Chicken or another lean protein source when the meal needs it' },
+          { type: 'p', text: '• A simple broth or vegetable soup' },
           {
             type: 'p',
             text: "That's why I don't really see this as a strict rule.",
           },
           {
             type: 'p',
-            text: "It's more like a little trick I can use when I know a normal portion of a meal isn't going to leave me very satisfied.",
+            text: "It's more like a little trick I can use when I know a normal portion of a favorite food isn't going to leave me very satisfied on its own.",
           },
           {
             type: 'p',
@@ -2520,7 +2814,7 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: "I'll add potatoes or vegetables.",
+            text: "I'll add a big salad or vegetables.",
           },
           { type: 'p', text: 'Then I can actually enjoy eating.' },
           {
@@ -2573,7 +2867,7 @@ export const BLOG_POSTS: BlogPost[] = [
           { type: 'p', text: 'A decent portion of chicken.' },
           { type: 'p', text: 'Some tuna.' },
           { type: 'p', text: 'A big serving of egg whites.' },
-          { type: 'p', text: 'Some potatoes or vegetables.' },
+          { type: 'p', text: 'A big salad or plenty of vegetables.' },
           {
             type: 'p',
             text: 'Then whatever else I actually want to eat.',
@@ -3564,22 +3858,15 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: 'So sometimes I eat something filling before I have the pizza.',
-          },
-          { type: 'p', text: 'That might be potatoes.' },
-          { type: 'p', text: 'Or chicken.' },
-          { type: 'p', text: 'Or another filling protein.' },
-          {
-            type: 'p',
-            text: "Or some vegetables, or even a piece of fruit if I'm hungry while waiting for food to be ready.",
+            text: "So what works much better for me is changing what goes around the pizza.",
           },
           {
             type: 'p',
-            text: "The exact food isn't the important part.",
+            text: 'Instead of eating four or five slices on their own, I might have a couple of slices, skip the heavy dipping sauces, and pair it with a generous chicken salad and a simple, light dressing.',
           },
           {
             type: 'p',
-            text: "The idea is simply to take the edge off my hunger before eating the food I'm craving.",
+            text: "The salad and chicken provide the volume and protein that actually make me feel satisfied, while the pizza provides the exact flavor I was craving.",
           },
           {
             type: 'p',
@@ -3587,12 +3874,12 @@ export const BLOG_POSTS: BlogPost[] = [
           },
           {
             type: 'p',
-            text: "I'm just trying not to make food decisions while I'm starving.",
+            text: "I'm just not asking the pizza to do all the work of filling me up.",
           },
         ],
         illustrationAfter: {
           src: pizza2BalancedSpreadImg,
-          alt: 'Neo-brutalist overhead tabletop illustration of delicious pizza slices paired alongside everyday filling foods like roasted potatoes, chicken, salad, and sparkling citrus water',
+          alt: 'Neo-brutalist overhead tabletop illustration of delicious pizza slices paired alongside a fresh crisp salad, grilled chicken, and sparkling citrus water',
           accentBg: '#F7F3EA',
           aspectClass: 'aspect-[16/9] w-full',
         },
